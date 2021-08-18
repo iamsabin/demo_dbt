@@ -19,3 +19,9 @@ models:
             tests:
                 - unique
                 - not_null
+
+    - name: csv_model
+      description: "CSV DBT model"
+      columns:
+        - name: AccountName
+          description: "AccountName for account"
